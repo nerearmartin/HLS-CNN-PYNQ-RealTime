@@ -1,0 +1,80 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vitis_HLS/2020.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'Usuario' on host 'pc' (Windows NT_amd64 version 6.2) on Sat Dec 27 14:08:53 +0100 2025
+INFO: [HLS 200-10] In directory 'C:/Users/Usuario/Desktop/CNN/HLS-CNN-PYNQ-RealTime/hls'
+Sourcing Tcl script 'C:/Users/Usuario/Desktop/CNN/HLS-CNN-PYNQ-RealTime/hls/cnn_hls/solution1/csynth.tcl'
+INFO: [HLS 200-1510] Running: open_project cnn_hls 
+INFO: [HLS 200-10] Opening project 'C:/Users/Usuario/Desktop/CNN/HLS-CNN-PYNQ-RealTime/hls/cnn_hls'.
+INFO: [HLS 200-1510] Running: set_top cnn_accel 
+INFO: [HLS 200-1510] Running: add_files README.md 
+INFO: [HLS 200-10] Adding design file 'README.md' to the project
+INFO: [HLS 200-1510] Running: add_files cnn_accel.c 
+INFO: [HLS 200-10] Adding design file 'cnn_accel.c' to the project
+INFO: [HLS 200-1510] Running: add_files cnn_accel.h 
+INFO: [HLS 200-10] Adding design file 'cnn_accel.h' to the project
+INFO: [HLS 200-1510] Running: add_files cnn_ref.c 
+INFO: [HLS 200-10] Adding design file 'cnn_ref.c' to the project
+INFO: [HLS 200-1510] Running: add_files cnn_ref.h 
+INFO: [HLS 200-10] Adding design file 'cnn_ref.h' to the project
+INFO: [HLS 200-1510] Running: add_files cnn_tb.cc 
+INFO: [HLS 200-10] Adding design file 'cnn_tb.cc' to the project
+INFO: [HLS 200-1510] Running: add_files conv.cc 
+INFO: [HLS 200-10] Adding design file 'conv.cc' to the project
+INFO: [HLS 200-1510] Running: add_files conv.hh 
+INFO: [HLS 200-10] Adding design file 'conv.hh' to the project
+INFO: [HLS 200-1510] Running: add_files create_project.tcl 
+INFO: [HLS 200-10] Adding design file 'create_project.tcl' to the project
+INFO: [HLS 200-1510] Running: add_files dense.cc 
+INFO: [HLS 200-10] Adding design file 'dense.cc' to the project
+INFO: [HLS 200-1510] Running: add_files dense.hh 
+INFO: [HLS 200-10] Adding design file 'dense.hh' to the project
+INFO: [HLS 200-1510] Running: add_files directives.tcl 
+INFO: [HLS 200-10] Adding design file 'directives.tcl' to the project
+INFO: [HLS 200-1510] Running: add_files flat.cc 
+INFO: [HLS 200-10] Adding design file 'flat.cc' to the project
+INFO: [HLS 200-1510] Running: add_files flat.hh 
+INFO: [HLS 200-10] Adding design file 'flat.hh' to the project
+INFO: [HLS 200-1510] Running: add_files pool.cc 
+INFO: [HLS 200-10] Adding design file 'pool.cc' to the project
+INFO: [HLS 200-1510] Running: add_files pool.hh 
+INFO: [HLS 200-10] Adding design file 'pool.hh' to the project
+INFO: [HLS 200-1510] Running: add_files utils.cc 
+INFO: [HLS 200-10] Adding design file 'utils.cc' to the project
+INFO: [HLS 200-1510] Running: add_files utils.hh 
+INFO: [HLS 200-10] Adding design file 'utils.hh' to the project
+INFO: [HLS 200-1510] Running: add_files -tb cnn_tb.cc 
+INFO: [HLS 200-10] Adding test bench file 'cnn_tb.cc' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/Users/Usuario/Desktop/CNN/HLS-CNN-PYNQ-RealTime/hls/cnn_hls/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2.5ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2020.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1510] Running: set_part xc7z020clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10ns -name default 
+INFO: [HLS 200-1510] Running: set_clock_uncertainty 2.5ns 
+INFO: [HLS 200-1510] Running: csynth_design 
+WARNING: [HLS 200-40] Skipped source file 'utils.hh'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'pool.hh'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'flat.hh'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'directives.tcl'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'dense.hh'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'create_project.tcl'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'conv.hh'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+WARNING: [HLS 200-40] Skipped source file 'README.md'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx.
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.105 seconds; current allocated memory: 946.876 MB.
+INFO: [HLS 200-10] Analyzing design file 'utils.cc' ... 
+ERROR: [HLS 207-812] '../03-Headers/definitions.h' file not found: utils.cc:1:10
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.263 seconds; current allocated memory: 947.371 MB.
+command 'ap_source' returned error code
+    while executing
+"source C:/Users/Usuario/Desktop/CNN/HLS-CNN-PYNQ-RealTime/hls/cnn_hls/solution1/csynth.tcl"
+    invoked from within
+"hls::main C:/Users/Usuario/Desktop/CNN/HLS-CNN-PYNQ-RealTime/hls/cnn_hls/solution1/csynth.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$newargs"
+    (procedure "hls_proc" line 16)
+    invoked from within
+"hls_proc [info nameofexecutable] $argv"
+INFO: [HLS 200-112] Total CPU user time: 3 seconds. Total CPU system time: 1 seconds. Total elapsed time: 2.232 seconds; peak allocated memory: 947.031 MB.

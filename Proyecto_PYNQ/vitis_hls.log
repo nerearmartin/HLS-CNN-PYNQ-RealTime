@@ -1,0 +1,114 @@
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vitis_HLS/2020.2/bin/unwrapped/win64.o/vitis_hls.exe'
+INFO: [HLS 200-10] For user 'Usuario' on host 'pc' (Windows NT_amd64 version 6.2) on Sun Jan 17 13:42:42 +0100 2021
+INFO: [HLS 200-10] In directory 'C:/Users/Usuario/AppData/Roaming/Xilinx/Vitis'
+Sourcing Tcl script 'C:/Users/Usuario/AppData/Roaming/Xilinx/Vitis/cnn_hls_pynq/solution1/export.tcl'
+INFO: [HLS 200-1510] Running: open_project cnn_hls_pynq 
+INFO: [HLS 200-10] Opening project 'C:/Users/Usuario/AppData/Roaming/Xilinx/Vitis/cnn_hls_pynq'.
+INFO: [HLS 200-1510] Running: set_top cnn_stream_accel 
+INFO: [HLS 200-1510] Running: add_files wrapper.cpp 
+INFO: [HLS 200-10] Adding design file 'wrapper.cpp' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/utils.hh 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/utils.hh' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/utils.cc 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/utils.cc' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/pool.hh 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/pool.hh' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/pool.cc 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/pool.cc' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/flat.hh 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/flat.hh' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/flat.cc 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/flat.cc' to the project
+INFO: [HLS 200-1510] Running: add_files 03-Headers/dense_weights.h 
+INFO: [HLS 200-10] Adding design file '03-Headers/dense_weights.h' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/dense.hh 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/dense.hh' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/dense.cc 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/dense.cc' to the project
+INFO: [HLS 200-1510] Running: add_files 03-Headers/definitions.h 
+INFO: [HLS 200-10] Adding design file '03-Headers/definitions.h' to the project
+INFO: [HLS 200-1510] Running: add_files 03-Headers/conv_weights.h 
+INFO: [HLS 200-10] Adding design file '03-Headers/conv_weights.h' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/conv.hh 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/conv.hh' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/conv.cc 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/conv.cc' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/cnn.hh 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/cnn.hh' to the project
+INFO: [HLS 200-1510] Running: add_files 05-Vitis-HLS/cnn.cc 
+INFO: [HLS 200-10] Adding design file '05-Vitis-HLS/cnn.cc' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/out.dat -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/out.dat' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/in.dat -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/in.dat' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/image9.txt -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/image9.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/image8.txt -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/image8.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/image7.txt -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/image7.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/image6.txt -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/image6.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/image5.txt -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/image5.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/image4.txt -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/image4.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/image3.txt -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/image3.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/image2.txt -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/image2.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/image1.txt -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/image1.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 02-Data/image0.txt -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '02-Data/image0.txt' to the project
+INFO: [HLS 200-1510] Running: add_files -tb 05-Vitis-HLS/cnn_tb.cc -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
+INFO: [HLS 200-10] Adding test bench file '05-Vitis-HLS/cnn_tb.cc' to the project
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/Users/Usuario/AppData/Roaming/Xilinx/Vitis/cnn_hls_pynq/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2.5ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg400-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2020.2;t=hls+guidance;d=200-1505.html
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg400-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10ns -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: set_clock_uncertainty 2.5ns 
+INFO: [HLS 200-1510] Running: set_directive_top -name cnn_stream_accel cnn_stream_accel 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'cnn_stream_accel_ap_fadd_3_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'cnn_stream_accel_ap_fadd_3_full_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'cnn_stream_accel_ap_fadd_3_full_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'cnn_stream_accel_ap_fcmp_0_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'cnn_stream_accel_ap_fcmp_0_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'cnn_stream_accel_ap_fcmp_0_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'cnn_stream_accel_ap_fdiv_14_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'cnn_stream_accel_ap_fdiv_14_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'cnn_stream_accel_ap_fdiv_14_no_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'cnn_stream_accel_ap_fexp_8_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'cnn_stream_accel_ap_fexp_8_full_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'cnn_stream_accel_ap_fexp_8_full_dsp_32'...
+WARNING: [IP_Flow 19-4832] The IP name 'cnn_stream_accel_ap_fmul_2_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'cnn_stream_accel_ap_fmul_2_max_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'cnn_stream_accel_ap_fmul_2_max_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'FAcc'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'FAcc'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 17 13:43:15 2021...
+INFO: [HLS 200-802] Generated output file cnn_hls_pynq/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 32.032 seconds; current allocated memory: 177.824 MB.

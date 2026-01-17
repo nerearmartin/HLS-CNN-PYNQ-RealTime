@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="wrapper.cpp" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\wrapper.cpp"/>
+    <originFiles name="utils.hh" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\utils.hh"/>
+    <originFiles name="utils.cc" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\utils.cc"/>
+    <originFiles name="pool.hh" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\pool.hh"/>
+    <originFiles name="pool.cc" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\pool.cc"/>
+    <originFiles name="flat.hh" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\flat.hh"/>
+    <originFiles name="flat.cc" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\flat.cc"/>
+    <originFiles name="dense_weights.h" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\03-Headers\dense_weights.h"/>
+    <originFiles name="dense.hh" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\dense.hh"/>
+    <originFiles name="dense.cc" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\dense.cc"/>
+    <originFiles name="definitions.h" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\03-Headers\definitions.h"/>
+    <originFiles name="conv_weights.h" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\03-Headers\conv_weights.h"/>
+    <originFiles name="conv.hh" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\conv.hh"/>
+    <originFiles name="conv.cc" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\conv.cc"/>
+    <originFiles name="cnn.hh" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\cnn.hh"/>
+    <originFiles name="cnn.cc" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\cnn.cc"/>
+  </source>
+  <testbench>
+    <originFiles name="out.dat" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\out.dat"/>
+    <originFiles name="in.dat" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\in.dat"/>
+    <originFiles name="image9.txt" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\image9.txt"/>
+    <originFiles name="image8.txt" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\image8.txt"/>
+    <originFiles name="image7.txt" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\image7.txt"/>
+    <originFiles name="image6.txt" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\image6.txt"/>
+    <originFiles name="image5.txt" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\image5.txt"/>
+    <originFiles name="image4.txt" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\image4.txt"/>
+    <originFiles name="image3.txt" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\image3.txt"/>
+    <originFiles name="image2.txt" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\image2.txt"/>
+    <originFiles name="image1.txt" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\image1.txt"/>
+    <originFiles name="image0.txt" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\02-Data\image0.txt"/>
+    <originFiles name="cnn_tb.cc" path="C:\Users\Usuario\AppData\Roaming\Xilinx\Vitis\05-Vitis-HLS\cnn_tb.cc"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

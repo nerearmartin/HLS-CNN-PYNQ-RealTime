@@ -1,0 +1,12 @@
+12:15:06 **** Incremental Build of configuration Debug for project cnn ****
+make all 
+'Building file: C:/Users/Usuario/Desktop/CNN/HLS-CNN/Code/05-Vitis-HLS/cnn_tb.cc'
+'Invoking: GCC C++ Compiler'
+g++ -DAESL_TB -D__llvm__ -D__llvm__ -IC:/Users/Usuario/Desktop/CNN/HLS-CNN/Code -ID:/Xilinx/Vitis_HLS/2020.2/include/ap_sysc -ID:/Xilinx/Vitis_HLS/2020.2/win64/tools/auto_cc/include -ID:/Xilinx/Vitis_HLS/2020.2/include/etc -ID:/Xilinx/Vitis_HLS/2020.2/include -ID:/Xilinx/Vitis_HLS/2020.2/win64/tools/systemc/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"testbench/cnn_tb.d" -MT"testbench/cnn_tb.o" -o "testbench/cnn_tb.o" "C:/Users/Usuario/Desktop/CNN/HLS-CNN/Code/05-Vitis-HLS/cnn_tb.cc"
+process_begin: CreateProcess(NULL, g++ -DAESL_TB -D__llvm__ -D__llvm__ -IC:/Users/Usuario/Desktop/CNN/HLS-CNN/Code -ID:/Xilinx/Vitis_HLS/2020.2/include/ap_sysc -ID:/Xilinx/Vitis_HLS/2020.2/win64/tools/auto_cc/include -ID:/Xilinx/Vitis_HLS/2020.2/include/etc -ID:/Xilinx/Vitis_HLS/2020.2/include -ID:/Xilinx/Vitis_HLS/2020.2/win64/tools/systemc/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MFtestbench/cnn_tb.d -MTtestbench/cnn_tb.o -o testbench/cnn_tb.o C:/Users/Usuario/Desktop/CNN/HLS-CNN/Code/05-Vitis-HLS/cnn_tb.cc, ...) failed.
+make (e=2): El sistema no puede encontrar el archivo especificado.
+
+make: *** [testbench/subdir.mk:20: testbench/cnn_tb.o] Error 2
+
+12:15:06 Build Finished (took 242ms)
+

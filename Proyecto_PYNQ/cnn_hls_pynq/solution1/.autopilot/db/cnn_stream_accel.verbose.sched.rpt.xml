@@ -1,0 +1,50 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'cnn_stream_accel'" level="0">
+<item name = "Date">Sun Jan 17 13:41:56 2021
+</item>
+<item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)</item>
+<item name = "Project">cnn_hls_pynq</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z020-clg400-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00 ns, 8.280 ns, 2.50 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">47267, 47267, 0.473 ms, 0.473 ms, 47268, 47268, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_27_1_VITIS_LOOP_28_2">784, 784, 2, 1, 1, 784, yes</column>
+<column name="- Loop 2">1156, 1156, 1, 1, 1, 1156, yes</column>
+<column name="- pad_for_rows_pad_for_cols">802, 802, 20, 1, 1, 784, yes</column>
+<column name="- clone_for_rows_clone_for_cols">1157, 1157, 3, 1, 1, 1156, yes</column>
+<column name="- VITIS_LOOP_40_3">11, 11, 3, 1, 1, 10, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>
